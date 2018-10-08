@@ -76,3 +76,22 @@ ng-monaco-diff-editor {
     }
   }
 }
+
+@mixin ng-monaco-editor-line-decorator($color) {
+  &::after {
+    height: 100%;
+    width: 5px !important;
+    left: 3px;
+    background-color: $color;
+    content: '';
+    position: absolute;
+  }
+}
+
+.ng-monaco-editor-line-decorator-1 {
+  @include ng-monaco-editor-line-decorator(lightblue);
+}
+
+.ng-monaco-editor-line-decorator--1 {
+  @include ng-monaco-editor-line-decorator(red);
+}

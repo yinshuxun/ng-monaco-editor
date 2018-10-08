@@ -36,6 +36,7 @@ storiesOf('Code Editor', module)
   .addDecorator(withKnobs)
   .add('simple monaco editor', () => {
     const model = exampleCode;
+    const originalValue = exampleCode;
     return {
       moduleMetadata: {
         imports: [
@@ -49,7 +50,7 @@ storiesOf('Code Editor', module)
       <h1>原始代码</h1>
       <textarea cols="80" rows="10" [(ngModel)]="model">{{ exampleCode }}</textarea>
       <h1>编辑器</h1>
-      <ng-monaco-editor style="height: 300px" [options]="options" [(ngModel)]="model"></ng-monaco-editor>
+      <ng-monaco-editor style="height: 300px" [originalValue]="originalValue" [options]="options" [(ngModel)]="model"></ng-monaco-editor>
       `,
       props: {
         options: {
@@ -58,6 +59,7 @@ storiesOf('Code Editor', module)
           minimap: { enabled: true },
         },
         model,
+        originalValue,
       },
     };
   })

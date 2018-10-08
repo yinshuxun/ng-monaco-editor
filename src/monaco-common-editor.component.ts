@@ -67,6 +67,9 @@ export abstract class MonacoCommonEditorComponent
   @Input()
   modelUri: string;
 
+  @Input()
+  originalValue: string;
+
   /**
    * Events emitted when monaco editor changed.
    */

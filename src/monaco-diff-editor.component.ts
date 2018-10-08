@@ -3,7 +3,6 @@ import {
   ChangeDetectorRef,
   Component,
   forwardRef,
-  Input,
   NgZone,
   OnChanges,
   OnDestroy,
@@ -38,9 +37,6 @@ import { ResizeSensorService } from './resize-sensor.service';
 export class MonacoDiffEditorComponent extends MonacoCommonEditorComponent
   implements OnChanges, OnDestroy {
   protected originalModel: import('monaco-editor').editor.ITextModel;
-
-  @Input()
-  originalValue: string;
 
   constructor(
     zone: NgZone,
