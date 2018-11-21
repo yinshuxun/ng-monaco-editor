@@ -6,6 +6,9 @@
 - Angular 7+
 - monaco-editor: 1.5+
 
+## DEMO
+https://pengx17.github.io/ng-monaco-editor/demo
+
 ## Setup
 
 ### Add npm dependencies
