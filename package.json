@@ -10,7 +10,7 @@
     "lint": "tslint -p . -t stylish",
     "lint:fix": "yarn lint -- --fix",
     "storybook": "start-storybook -p 9001 -c .storybook -s node_modules/monaco-editor/dev",
-    "test": ""
+    "storybook:build": "build-storybook -c .storybook -s node_modules/monaco-editor/dev -o demo"
   },
   "repository": {
     "type": "git",
