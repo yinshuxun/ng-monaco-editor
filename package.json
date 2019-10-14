@@ -34,7 +34,7 @@
     "@storybook/addon-knobs": "^5.2.4",
     "@storybook/addon-options": "^5.2.4",
     "@storybook/angular": "^5.2.4",
-    "@storybook/cli": "^5.1.9",
+    "@storybook/cli": "^5.2.4",
     "@types/lodash.debounce": "^4.0.6",
     "@types/lodash.isequal": "^4.5.5",
     "@types/storybook__addon-actions": "^3.4.3",
