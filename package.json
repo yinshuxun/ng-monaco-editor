@@ -32,7 +32,7 @@
     "@babel/core": "^7.4.5",
     "@storybook/addon-actions": "^5.2.7",
     "@storybook/addon-knobs": "^5.2.7",
-    "@storybook/addon-options": "^5.1.9",
+    "@storybook/addon-options": "^5.2.7",
     "@storybook/angular": "^5.1.9",
     "@storybook/cli": "^5.1.9",
     "@types/lodash.debounce": "^4.0.6",
